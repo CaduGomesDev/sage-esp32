@@ -43,6 +43,12 @@ Tudo o que **não** é segredo (modelos, endpoints, pinos, limiares) fica em
 
 ## 2. Ligações
 
+Montagem de referência em duas protoboards 830 — placa A com o ESP32-S3,
+placa B com os três módulos. Cores por sinal, pontes de alimentação entre as
+placas:
+
+![Diagrama de fiação: ESP32-S3, INMP441, MAX98357A e OLED SSD1306 em duas protoboards 830](assets/wiring-diagram.svg)
+
 ### Microfone INMP441 (I2S0 — entrada)
 
 | INMP441 | ESP32-S3 |
